@@ -26,3 +26,23 @@ Welcome to the repository for the official website of my children's book! This p
 ├── README.md      # Project overview
 └── package.json   # Dependencies and scripts
 ```
+
+## Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/micihime/my-book.git
+   cd my-book
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm start
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
