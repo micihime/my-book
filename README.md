@@ -46,3 +46,8 @@ Welcome to the repository for the official website of my children's book! This p
    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+
+
+## Contact
+
+For questions or feedback, please reach out at [mitchie.code@gmail.com].
