@@ -15,3 +15,14 @@ Welcome to the repository for the official website of my children's book! This p
 - **Framework:** React.js
 - **Backend:** Node.js
 - **Hosting:** Netlify/Vercel
+
+## Project Structure
+
+```
+.
+├── app
+│   ├── components # React components
+│   └── pages      # Website pages
+├── README.md      # Project overview
+└── package.json   # Dependencies and scripts
+```
