@@ -47,6 +47,13 @@ Welcome to the repository for the official website of my children's book! This p
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
 
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests to improve the website.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
