@@ -1,12 +1,9 @@
-import { Button, Group, Tooltip, Text } from "@mantine/core";
+import { Button, Group, Tooltip } from "@mantine/core";
 import { Welcome } from "./components/Welcome/Welcome";
 
 export default function HomePage() {
   return <>
     <Welcome />
-    <Text>
-      Test deploy
-    </Text>
     <Group justify="center" mt="xl">
       <Tooltip label="Coming soon!">
         <Button disabled>Start the Adventure</Button>
