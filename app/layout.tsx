@@ -1,8 +1,5 @@
 import "@mantine/core/styles.css";
-import {
-  MantineProvider,
-  mantineHtmlProps,
-} from "@mantine/core";
+import { MantineProvider, mantineHtmlProps } from "@mantine/core";
 import { theme } from "../theme";
 
 export const metadata = {

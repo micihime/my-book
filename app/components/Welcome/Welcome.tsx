@@ -23,7 +23,7 @@ export function Welcome() {
         teamwork as you dive into the pages of their adventure.
       </Text>
       <Group justify="center" mt="xl">
-          <Button disabled>Start the Adventure</Button>
+        <Button disabled>Start the Adventure</Button>
       </Group>
     </>
   );
