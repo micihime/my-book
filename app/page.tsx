@@ -9,9 +9,9 @@ export default function HomePage() {
     <div className={styles.pageContainer}>
       <Header />
 
-      <div className={styles.contentWrap}>
+      <main className={styles.contentWrap}>
         <Welcome />
-      </div>
+      </main>
       <Footer />
     </div>
   );

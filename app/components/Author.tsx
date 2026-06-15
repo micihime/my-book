@@ -6,7 +6,7 @@ export default function Author() {
       <Title>About the Author</Title>
       <Text>
         I&apos;ve always loved storytelling, and this book is my way of creating
-        something new while learning new skills along the way—like writing,
+        something new while learning new skills along the way, like writing,
         illustrating, and even understanding how to make and share a book.
         It&apos;s a journey into the world of creativity, marketing, and
         business that I&apos;ve always dreamed of exploring.
