@@ -6,8 +6,8 @@ export default function About() {
       <Title>About the Book</Title>
       <Text>
         Forest Adventures is a heartfelt children&apos;s book about three
-        unlikely friends—a curious Frog, a thoughtful Snake, and a playful
-        Rabbit—living together in the enchanting world of the forest. Through
+        unlikely friends, a curious Frog, a thoughtful Snake, and a playful
+        Rabbit, living together in the enchanting world of the forest. Through
         their adventures, children will learn important life lessons about
         friendship, bravery, and kindness.
       </Text>
@@ -32,7 +32,7 @@ export default function About() {
       <Title>About the Author</Title>
       <Text>
         As someone who grew up loving these tales, I decided to bring them to
-        life for a new generation of readers. I’m passionate about storytelling
+        life for a new generation of readers. I&apos;m passionate about storytelling
         and illustration, and this book is the start of a dream to create
         magical, inspiring stories for children.
       </Text>
