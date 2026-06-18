@@ -1,7 +1,12 @@
-import { Provider } from "@/components/ui/provider"
+import type { Metadata } from 'next'
+import { Provider } from '@/components/ui/provider'
 
-export default function RootLayout(props: { children: React.ReactNode }) {
-  const { children } = props
+export const metadata: Metadata = {
+  title: 'My App',
+  description: '',
+}
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html suppressHydrationWarning>
       <body>
