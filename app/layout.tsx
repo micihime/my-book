@@ -1,25 +1,23 @@
-import "@mantine/core/styles.css";
-import { MantineProvider, mantineHtmlProps } from "@mantine/core";
-import { theme } from "../theme";
+import type { Metadata } from 'next'
+import { Header } from '@/components/Header/Header'
+import { Footer } from '@/components/Footer/Footer'
+import { Provider } from '@/components/ui/provider'
 
-export const metadata = {
-  title: "Brave Hearts",
-  description: "interactive children's book",
-};
+export const metadata: Metadata = {
+  title: 'Brave Hearts',
+  description: 'Magical world of Everwhisper Forest',
+}
 
-export default function RootLayout({ children }: { children: any }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" {...mantineHtmlProps}>
-      <head>
-        <link rel="shortcut icon" href="/favicon.svg" />
-        <meta
-          name="viewport"
-          content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
-        />
-      </head>
+    <html suppressHydrationWarning>
       <body>
-        <MantineProvider theme={theme}>{children}</MantineProvider>
+        <Provider>
+          <Header />
+          {children}
+          <Footer />
+        </Provider>
       </body>
     </html>
-  );
+  )
 }
