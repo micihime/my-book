@@ -3,7 +3,7 @@ import { Heading, Text, Stack } from '@chakra-ui/react'
 export default function About() {
   return (
     <Stack>
-      <Heading>About the Book</Heading>
+      <Heading as="h1">About the Book</Heading>
       <Text>
         Forest Adventures is a heartfelt children&apos;s book about three
         unlikely friends, a curious Frog, a thoughtful Snake, and a playful

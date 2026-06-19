@@ -3,7 +3,7 @@ import { Heading, Text, Button, Stack } from '@chakra-ui/react'
 export default function Author() {
   return (
     <Stack>
-      <Heading>About the Author</Heading>
+      <Heading as="h1">About the Author</Heading>
       <Text>
         I&apos;ve always loved storytelling, and this book is my way of creating
         something new while learning new skills along the way, like writing,

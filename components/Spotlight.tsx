@@ -3,7 +3,7 @@ import { Heading, Text, Button, Stack } from '@chakra-ui/react'
 export default function Spotlight() {
   return (
     <Stack>
-      <Heading>Meet the Characters</Heading>
+      <Heading as="h1">Meet the Characters</Heading>
       <Text>
         Klotilda: Always ready for an adventure, Frog is brave but knows when to
         ask for help. With a big heart, he jumps into challenges headfirst,

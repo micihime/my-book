@@ -3,7 +3,7 @@ import { Heading, Text, Button, Stack } from '@chakra-ui/react'
 export function Welcome() {
   return (
     <Stack>
-      <Heading>
+      <Heading as="h1">
         Welcome to Brave Hearts
       </Heading>
       <Text>
