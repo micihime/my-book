@@ -7,11 +7,10 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <Image
-          className={styles.logo}
           src="/logo.png"
           alt="Brave Hearts logo"
           width={100}
-          height={20}
+          height={100}
           priority
         />
         <Welcome />
