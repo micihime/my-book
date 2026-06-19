@@ -1,4 +1,5 @@
-import { Heading, Text, Button, Stack } from '@chakra-ui/react'
+import { Heading, Text, Stack } from '@chakra-ui/react'
+// import Image from "next/image";
 
 export default function Spotlight() {
   return (

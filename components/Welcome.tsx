@@ -1,10 +1,12 @@
-import { Heading, Text, Button, Stack } from '@chakra-ui/react'
+import { Heading, Text, Button, Stack, Highlight } from '@chakra-ui/react'
 
 export function Welcome() {
   return (
     <Stack>
-      <Heading as="h1">
-        Welcome to Brave Hearts
+      <Heading as="h1" size="5xl" letterSpacing="tight" fontWeight="bold">
+        <Highlight query="Brave Hearts" styles={{ color: "green.800" }}>
+          Welcome to Brave Hearts!
+        </Highlight>
       </Heading>
       <Text>
         Join three adventurous friends on a journey full of fun, discovery, and

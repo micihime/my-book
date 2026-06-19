@@ -1,4 +1,5 @@
-import { Heading, Text, Stack } from '@chakra-ui/react'
+import Link from 'next/link';
+import { Heading, Text, Button, Stack } from '@chakra-ui/react'
 
 export default function About() {
   return (
@@ -28,6 +29,9 @@ export default function About() {
         Together, they explore the forest, learn new things, and help each other
         grow along the way.
       </Text>
+      <Button asChild>
+        <Link href="/spotlight">Button</Link>
+      </Button>
 
       <Heading as="h2">About the Author</Heading>
       <Text>
@@ -36,6 +40,9 @@ export default function About() {
         and illustration, and this book is the start of a dream to create
         magical, inspiring stories for children.
       </Text>
+      <Button asChild>
+        <Link href="/author">Button</Link>
+      </Button>
     </Stack>
   );
 }
