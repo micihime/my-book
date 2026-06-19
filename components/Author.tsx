@@ -25,7 +25,7 @@ export default function Author() {
         perfectly normal to feel afraid sometimes. Most of all, I want them to
         understand that failure is just a part of learning and that being
         different is something to celebrate. Communication, honesty, and being
-        true to who you are—those are the values I want to pass on through these
+        true to who you are: those are the values I want to pass on through these
         stories.
       </Text>
     </Stack>

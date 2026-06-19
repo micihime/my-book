@@ -15,7 +15,7 @@ export function Welcome() {
         imaginative minigames. Explore the world of friendship, bravery, and
         teamwork as you dive into the pages of their adventure.
       </Text>
-      <Button disabled>Start the Adventure</Button>
+      <Button disabled w="fit-content">Start the Adventure</Button>
     </Stack>
   );
 }

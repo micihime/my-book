@@ -1,9 +1,8 @@
 import type { Metadata } from 'next'
 
-import { Header } from '@/components/Header/Header'
-import { Footer } from '@/components/Footer/Footer'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
 import { Provider } from '@/components/ui/provider'
-import './globals.css'
 
 import { Box, Flex } from '@chakra-ui/react'
 
@@ -20,7 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Flex direction="column" minH="100vh">
             <Header />
 
-            <Box as="main" flex="1">
+            <Box as="main" p="10" flex="1">
               {children}
             </Box>
             

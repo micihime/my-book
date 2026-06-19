@@ -29,8 +29,8 @@ export default function About() {
         Together, they explore the forest, learn new things, and help each other
         grow along the way.
       </Text>
-      <Button asChild>
-        <Link href="/spotlight">Button</Link>
+      <Button variant="subtle" asChild w="fit-content">
+        <Link href="/spotlight">Spotlight</Link>
       </Button>
 
       <Heading as="h2">About the Author</Heading>
@@ -40,8 +40,8 @@ export default function About() {
         and illustration, and this book is the start of a dream to create
         magical, inspiring stories for children.
       </Text>
-      <Button asChild>
-        <Link href="/author">Button</Link>
+      <Button variant="subtle" asChild w="fit-content">
+        <Link href="/author">Author</Link>
       </Button>
     </Stack>
   );
