@@ -1,19 +1,21 @@
-import classes from "./Welcome.module.css";
+import { Heading, Text, Button, Stack, Highlight } from '@chakra-ui/react'
 
 export function Welcome() {
   return (
-    <>
-      <h1 className={classes.title}>
-        Welcome to Brave Hearts
-      </h1>
-      <p>
+    <Stack>
+      <Heading as="h1" size="5xl" letterSpacing="tight" fontWeight="bold">
+        <Highlight query="Brave Hearts" styles={{ color: "green.800" }}>
+          Welcome to Brave Hearts!
+        </Highlight>
+      </Heading>
+      <Text>
         Join three adventurous friends on a journey full of fun, discovery, and
         excitement! This interactive children&apos;s book brings their story to
         life with engaging animations, captivating illustrations, and
         imaginative minigames. Explore the world of friendship, bravery, and
         teamwork as you dive into the pages of their adventure.
-      </p>
-      <button disabled>Start the Adventure</button>
-    </>
+      </Text>
+      <Button disabled w="fit-content">Start the Adventure</Button>
+    </Stack>
   );
 }

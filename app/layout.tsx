@@ -1,7 +1,10 @@
 import type { Metadata } from 'next'
-import { Header } from '@/components/Header/Header'
-import { Footer } from '@/components/Footer/Footer'
+
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
 import { Provider } from '@/components/ui/provider'
+
+import { Box, Flex } from '@chakra-ui/react'
 
 export const metadata: Metadata = {
   title: 'Brave Hearts',
@@ -13,9 +16,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html suppressHydrationWarning>
       <body>
         <Provider>
-          <Header />
-          {children}
-          <Footer />
+          <Flex direction="column" minH="100vh">
+            <Header />
+
+            <Box as="main" p="10" flex="1">
+              {children}
+            </Box>
+            
+            <Footer />
+          </Flex>
         </Provider>
       </body>
     </html>
