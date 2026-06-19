@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Header } from '@/components/Header/Header'
 import { Footer } from '@/components/Footer/Footer'
 import { Provider } from '@/components/ui/provider'
+import './globals.css'
 
 import { Box, Flex } from '@chakra-ui/react'
 
