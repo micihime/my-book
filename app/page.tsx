@@ -1,9 +1,10 @@
 import Image from "next/image";
-import { Welcome } from '@/components/Welcome/Welcome'
+import { Welcome } from '@/components/Welcome'
+import { Stack } from '@chakra-ui/react'
 
 export default function Home() {
   return (
-    <>
+    <Stack>
       <Image
         src="/logo.png"
         alt="Brave Hearts logo"
@@ -12,6 +13,6 @@ export default function Home() {
         priority
       />
       <Welcome />
-    </>
+    </Stack>
   );
 }
