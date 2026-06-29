@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Welcome } from '@/components/Welcome'
-import { Stack } from '@chakra-ui/react'
+import { Welcome } from "@/components/Welcome";
+import { Stack } from "@chakra-ui/react";
 
 export default function Home() {
   return (

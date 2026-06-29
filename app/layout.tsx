@@ -1,17 +1,21 @@
-import type { Metadata } from 'next'
+import type { Metadata } from "next";
 
-import { Header } from '@/components/Header'
-import { Footer } from '@/components/Footer'
-import { Provider } from '@/components/ui/provider'
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { Provider } from "@/components/ui/provider";
 
-import { Box, Flex } from '@chakra-ui/react'
+import { Box, Flex } from "@chakra-ui/react";
 
 export const metadata: Metadata = {
-  title: 'Brave Hearts',
-  description: 'Magical world of Everwhisper Forest',
-}
+  title: "Brave Hearts",
+  description: "Magical world of Everwhisper Forest",
+};
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html suppressHydrationWarning>
       <body>
@@ -22,11 +26,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Box as="main" p="10" flex="1">
               {children}
             </Box>
-            
+
             <Footer />
           </Flex>
         </Provider>
       </body>
     </html>
-  )
+  );
 }
