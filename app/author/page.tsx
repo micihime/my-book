@@ -1,7 +1,5 @@
-import Author from '@/components/Author'
+import Author from "@/components/Author";
 
 export default function AuthorPage() {
-  return (
-    <Author />
-  );
+  return <Author />;
 }
