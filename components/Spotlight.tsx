@@ -1,4 +1,12 @@
-import { Heading, Text, SimpleGrid, Box, Flex, VStack, Badge } from "@chakra-ui/react";
+import {
+  Heading,
+  Text,
+  SimpleGrid,
+  Box,
+  Flex,
+  VStack,
+  Badge,
+} from "@chakra-ui/react";
 import Image from "next/image";
 
 // Character data structure
@@ -41,17 +49,16 @@ export default function Spotlight() {
 
   return (
     <Box maxW="1200px" mx="auto" px="4" py="12">
-      {/* Page Header */}
       <VStack gap="2" textAlign="center" mb="12">
         <Heading as="h1" size="2xl" color="teal.600">
           Meet the Characters
         </Heading>
         <Text fontSize="lg" color="gray.500">
-          Discover the unique personalities, strengths, and stories of the Brave Hearts team.
+          Discover the unique personalities, strengths, and stories of the Brave
+          Hearts team.
         </Text>
       </VStack>
 
-      {/* Character Cards Grid */}
       <SimpleGrid columns={{ base: 1, md: 3 }} gap="8">
         {characters.map((char: Character) => (
           <Box
@@ -68,8 +75,13 @@ export default function Spotlight() {
             flexDirection="column"
           >
             <VStack gap="4" align="stretch" height="100%">
-              {/* Profile Image Wrapper */}
-              <Flex justify="center" align="center" bg="gray.50" py="6" borderRadius="lg">
+              <Flex
+                justify="center"
+                align="center"
+                bg="gray.50"
+                py="6"
+                borderRadius="lg"
+              >
                 <Image
                   src={char.src}
                   alt={`${char.name} the ${char.role}`}
@@ -80,7 +92,6 @@ export default function Spotlight() {
                 />
               </Flex>
 
-              {/* Character Header Info */}
               <VStack gap="1" align="start">
                 <Flex width="100%" justify="space-between" align="center">
                   <Heading as="h3" size="md">
@@ -90,12 +101,16 @@ export default function Spotlight() {
                     {char.trait}
                   </Badge>
                 </Flex>
-                <Text fontSize="sm" fontWeight="bold" color="teal.500" textTransform="uppercase">
+                <Text
+                  fontSize="sm"
+                  fontWeight="bold"
+                  color="teal.500"
+                  textTransform="uppercase"
+                >
                   {char.title} ({char.role})
                 </Text>
               </VStack>
 
-              {/* Detailed Biography */}
               <Text color="gray.600" fontSize="sm" lineHeight="tall" flex="1">
                 {char.bio}
               </Text>
